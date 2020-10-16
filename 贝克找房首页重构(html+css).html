@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贝壳</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_53sxezvyv79.css">
+    <link rel="stylesheet" href="hhtp://at.alicdn.com/t/font_1970130_cjdnis89go.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_bs553be8fr.css">
+   <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_hfx1boafit.css">
+    <style>
+            html,body,.main{
+            width: 100%;
+            height: 100%;
+            color:#fff
+
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+         
+        }
+
+        .header{
+            background-image: url(http://47.103.205.31/group1/M00/00/02/bg_header@1x.jpg);
+            background-position: center 0;
+            width: 1600px;
+            height: 566px;
+            position: relative;
+            background-size: 100% 100%;
+            margin: 0 auto;
+            
+        }
+        .center{
+            width: 1600px;
+            height: 966px;
+            color: #fff;
+            margin: 0 auto;
+        
+    }
+    .footer{
+            width: 100%;
+            height: 800px;
+            /* background-color: pink; */
+
+
+    }
+        .img{
+           background-image: url(http://47.103.205.31/group1/M00/00/02/sprite.png);
+            background-position: -70px 0px;
+            width: 94px;
+            height: 34px;
+            float: left;
+            margin-top: 34px;
+            margin-left:50px;
+        }
+        .where{
+            display: inline-block;
+           height: 24px;
+           padding: 0 8px;
+           line-height: 24px;
+           text-align: center;
+           color: #fff;
+            margin-top: 42px;
+           cursor: pointer;
+           border-radius: 14px;
+           border: 2px solid #fff;
+           font-size: 12px;
+          margin-left: 30px;        
+        }
+        .daohang{
+           float: right;
+           list-style: none;
+           /* position:absolute; */
+           margin-top: 42px;
+           margin-right: 100px;
+           
+        }
+       
+        li{
+            float: left;
+            list-style: none;
+            font-size: 16px;
+           font-weight: 700; 
+           text-decoration: none;
+           
+        
+        }
+    
+        .daohang>ul>li>a{
+            padding: 0 0.6em;
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+			/* border-right: 1px solid #ededed; */
+        }
+        .daohang>ul>li:last-child{
+            margin-left: 1em;
+        }
+     
+    .header-center{
+         margin-left: 225px;
+         margin-top: 155px;
+    }
+    form{
+        position:absolute;
+        margin-left: 2px;
+        margin-top: 18px;
+      
+    }
+    [ type="text"]{
+        height: 55px;
+        width: 500px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding-left: 15px;
+    }
+
+    .center-header{
+        margin-top: 86px;
+        margin-left: 230px;
+    }
+    .center-header>span:first-child{
+        font-size: 36px;
+        line-height: 50px;
+         color: #101d37;
+         font-weight: 600;
+
+    }
+    .center-header>span{
+        color:#9399a5;
+       width: 1150px;
+       font-size: 16px;
+        line-height: 22px;
+      
+    }
+    .center-header::after{
+        display: block;
+        content: "";
+        float: both;
+    }
+    .center-header-right{
+        float: right;
+        margin-right: 228px;
+        margin-bottom: 26px;
+        text-decoration: none;
+        color: #3072f6;
+        font-weight: 600;
+
+    }
+    .center-center{
+        position: absolute;
+        /* background-color: red; */
+        width: 100%;
+        height: 400px;
+        margin-right: 221px;
+        margin-left:221px ;
+        margin-top: 10px;
+    }
+    /* 20 260 */
+    .center-center>ul>li{
+        width: 250px;
+        height: 390px;
+        background-color: #fff;
+        margin-left: 20px;
+        margin-top: 5px;
+        
+    }
+    .center-center>ul>li>a{
+        text-decoration: none;
+     }
+     
+    .center-center img{
+        width: 100%;
+        height:200px ;
+    }
+    .center-center-one>ul>li{
+         
+         width: 340px;
+         height: 350px;
+    }
+    .center-center-one img{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    
+  .center-center-size{
+    
+    font-size: 18px;
+   font-weight: 700;
+   line-height: 24px;
+   color: #222;
+  }
+  .center-center-size2{
+    margin-top: 10px;
+font-size: 12px;
+color: #616669;
+line-height: 16px;
+  }
+  .center-center-size2>span:last-child{
+    font-weight: 700;
+float: right;
+font-size: 16px;
+color: #fa5741;
+  }
+ .header-center>div>ul>li>a{
+     text-decoration: none;
+     font-size: 16px;
+     color: #fff;
+     font-weight: 700;
+     padding: 0 20px 0 0;
+     
+ }
+  .header-center h4{
+    font-size: 28px;
+line-height: 28px;
+font-weight: 400;
+  }
+  .header-center h1{
+    text-align: left;
+color: #fff;
+font-size: 66px;
+line-height: 68px;
+font-weight: 600;
+font-family: \5FAE软雅黑,Hiragino Sans GB;
+letter-spacing: -2.4px;
+padding-top: 20px;
+padding-bottom: 40px;
+  }
+  .daohang>ul>li:nth-child(8), .daohang>ul>li:nth-child(10){
+      position: relative;
+  }
+  .daohang>ul>li:nth-child(8)>div{
+       position: absolute;
+       color: black;
+       background-color: #fff;
+       margin-top: 15px;
+       height: 60px;
+       width: 120px;
+       text-align: center;
+       border-radius: 10px;
+       padding-top: 15px;
+       display: none;
+  }
+  .daohang>ul>li:nth-child(10)>div{
+        position: fixed;
+        height:450px ;
+        width: 250px ;
+        background-image: url(http://47.103.205.31/group1/M00/00/02/微信图片_20200730141336.png);
+        background-size: 100% 100%;
+        margin-top: 10px;
+       right: 150px;
+        display: none;
+
+  }
+  .daohang>ul>li:nth-child(8):hover>div,.daohang>ul>li:nth-child(10):hover>div{
+      display: block;
+  }
+ 
+  .footer-one{
+       width: 1100px;
+       height: 95px;
+       /* background-color: black; */
+       margin: 0 auto;
+       
+  }
+  .footer-two{
+       width: 1100px;
+       height: 300px;
+       /* background-color: red; */
+       margin: 0 auto;
+  }
+  .footer-three{
+    width: 1100px;
+       height: 150px;
+       /* background-color: black; */
+       margin: 0 auto;
+  }
+  .footer-four{
+    width: 1100px;
+       height: 120px;
+       /* background-color: red; */
+       margin: 0 auto;
+  }
+  .footer-one>div{
+       width: 145px; ;
+       height: 73px;
+       display: inline-block;
+       padding: auto;
+       background-color: #fff;
+       margin-top: 10px;
+       margin-left: 50px;
+       line-height: 73px;
+       text-align: center;
+       color: #222;
+       font-weight: 700;
+       font-size: 16px;
+       border: .5px solid #d9d6d6;
+       border-radius: 5px;
+  }
+  .footer-one>div:first-child{
+      margin-left: 0px;
+  }
+ 
+  
+ 
+  .footer-one>a{
+          position: relative;
+          padding-left: 400px;
+          text-decoration: none;
+          line-height: 25px;
+          font-size: 16px;
+          font-weight: 600;
+  }
+ 
+ 
+
+
+  /* .footer-two>ul>li>div.first{
+      display:block;
+  } */
+  /* .footer-two>div{
+    position: absolute;
+       color: black;
+       margin-top: 30px;
+       height: 250px;
+       width: 1100px;
+       text-align: center;
+       border-radius: 10px;
+       padding-top: 15px;
+    
+    
+} */
+.last>ul>li{
+     color: #ededed;
+
+}  
+.box {
+			height: 300px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+            margin-left: -50px;
+            margin-top: 30px;
+		}
+		.box>ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			width: 1000px;
+		}
+		ul::after {
+			display: block;
+			content: '';
+			clear: both;
+		}
+		h3 {
+			font-size: 14px;
+			color: #707787;
+			font-weight: normal;
+		}
+		.nav {
+			float: left;
+			width: 10%;
+		}
+		.txt {
+			width: 1000px;
+			height: 300px;
+			background: white;
+			font-size: 14px;
+			color: #bdc1d7;
+		}
+		.txt > span {
+			margin-right: 5px;
+		}
+		.nav:nth-child(2) > .txt{
+			margin-left: -100px;
+		}
+		.nav:nth-child(3) > .txt{
+			margin-left: -200px;
+		}
+		.nav:nth-child(4) > .txt{
+			margin-left: -300px;
+		}
+		.nav:nth-child(5) > .txt{
+			margin-left: -400px;
+		}
+		.nav:nth-child(6) > .txt{
+			margin-left: -500px;
+		}
+		.nav:nth-child(7) > .txt{
+			margin-left: -600px;
+		}
+		.nav:nth-child(8) > .txt{
+			margin-left: -700px;
+		}
+		.nav:nth-child(9) > .txt{
+			margin-left: -800px;
+		}
+		.nav:nth-child(10) > .txt{
+			margin-left: -900px;
+		}
+
+		/* 已激活的第一个tag、title */
+		.nav_active {
+			position: relative;
+			z-index: 1;
+		}
+		.title_active {
+			color: #101d37;
+		}
+
+		/* 鼠标悬浮切换,字体颜色变黑 */
+		.nav:hover {
+			position: relative;
+			z-index: 1;
+			color: #101d37;
+		}
+		.nav:hover .title {
+			color: #101d37;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [type='submit']{
+       height: 57px;
+       width: 70px;
+       border-radius: 0 4px 4px 0;
+       cursor: pointer;
+       text-align: center;
+       color: #fff;
+       background-color: #3072f6;
+       
+       margin-left: -5px;
+  }
+  [action="#"]>div{
+      display: inline-block;
+     position: absolute;
+    
+  }
+  [action="#"]>div:last-child{
+      padding-left: 522px;
+ 
+     
+    
+  }
+  .icon-icon-test{
+     position:absolute ;
+     margin-left: -70px;
+     margin-top: 20px;
+     z-index: 1;
+     
+  }
+  .submit>i.iconfont{
+      margin-left: -50px;
+  }
+  .footer-three>div{
+      width: 182px;
+      height: 65px;
+      /* background-color:pink; */
+      /* border: 1px solid red; */
+      display: inline-block;
+      margin-top: 50px;
+      margin-left: 20px;
+  }
+  .footer-three>div:first-child{
+      background-image: url(http://47.103.205.31/group1/M00/00/02/招商1.png);
+      background-size: 100% 100%;
+  }
+  .footer-three>div:nth-child(2){
+      background-image: url(http://47.103.205.31/group1/M00/00/02/上海2.png);
+      background-size: 100% 100%;
+  }
+  .footer-three>div:nth-child(3){
+      background-image: url(http://47.103.205.31/group1/M00/00/02/中国3.png);
+      background-size: 100% 100%;
+  }
+  .footer-three>div:nth-child(4){
+      background-image: url(http://47.103.205.31/group1/M00/00/02/华夏4.png);
+      background-size: 100% 100%;
+  }
+  .footer-three>div:nth-child(5){
+      background-image: url(http://47.103.205.31/group1/M00/00/02/北京5.png);
+      background-size: 100% 100%;
+  }
+ [target="_blank"]{
+   
+     text-decoration: none;
+     color:#b7bbc3 ;
+  }
+  [target="_blank"]:hover{
+      text-decoration: underline;
+  }
+ .footer-four{
+     
+    color: #b7bbc3;
+   font-size: 14px;
+   line-height: 20px;
+  margin-bottom: 7px;
+  float: none;
+  }
+  .center-footerr-one{
+      margin-top: 410px;
+  }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header-header">
+                 <div class="img"> </div>
+                 <div class="where">
+                    <i class="iconfont icon-personLocation"></i>
+                    <span>上海</span> 
+                 </div>
+                 <div class="daohang">
+                     <ul>
+                         <li><a href="">二手房</a></li>
+                         <li><a href="">新房</a></li>
+                         <li><a href="">租房</a></li>
+                         <li><a href="">海外</a></li>
+                         <li><a href="">商业办公</a></li>
+                         <li><a href="">小区</a></li>
+                         <li><a href="">百科</a></li>
+                         <li><a href="">我是业主</a>
+                        <div>
+                            <span>发布房源</span> <br>
+                            <span>房屋估价</span>
+                        </div></li>
+                         <li><a href="">贝壳研究院</a></li>
+                         <li><a href="">下载APP</a>
+                             <div></div>
+                        </li>
+                         <li>
+                            
+                            <a href="" class="iconfont icon-xingmingyonghuming"> 登陆/注册</a></li>
+                     </ul>
+                 </div>
+            </div>
+            <div class="header-center">
+                <div>
+                    <h4>要找真房源 还是贝壳全</h4>
+                </div>
+                <div>
+                    <h1>开始寻找属于你的家</h1>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="">找二手房</a></li>
+                        <li><a href="">找新房</a></li>
+                        <li><a href="">找租房</a></li>
+                        <li><a href="">找小区</a></li>
+                        <br>
+                        
+                        <form action="#">
+
+                            <div>
+                                <input type="text" placeholder="请输入区域 板块或小区名开始找房" class="text">
+                                <a class="iconfont icon-icon-test" href="https://map.ke.com/map/310000/ESF/" >
+                                    <span >地图</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             <div class="submit">
+                                <input type="submit"  value="" > 
+                                <i class="iconfont icon-sousuo1"></i>
+                             </div>
+                                
+                        </form>
+                
+                    </ul>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div class="center">
+            <div class="center-header">
+                <span>二手好房</span>
+                <br>
+                <span >好房源那么多，我们为你精选</span>
+               <a href="" class="center-header-right">更多上海二手房</a>
+            </div>
+            <div class=" center-center" id="last">
+                <ul>
+                    <li>
+                        <a href="">
+                            <div>
+                                <img src="http://47.103.205.31/group1/M00/00/02/2.3.jpg" alt="">
+                            </div>
+                            <div class="center-center-size">
+                                <span>普陀·甘泉宜川 </span><br>
+                                <span>宜川三村</span>
+                                <div class="center-center-size2">
+                                <span> 2室1厅·57平米</span>
+                                <span>305万</span>
+
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>
+                                <img src="http://47.103.205.31/group1/M00/00/02/pc1_4LHn2szRX_1.jpg!m_fill,w_265,h_205,f_jpg.jpg" alt="">
+                            </div>
+                            <div class="center-center-size">
+                                <span>普陀·甘泉宜川 </span><br>
+                                <span>宜川三村</span>
+                                <div class="center-center-size2">
+                                <span> 2室1厅·54.83平米</span>
+                                <span>310万</span>
+
+                                </div>
+                            </div>
+                        </a>
+                    </li><li>
+                        <a href="">
+                            <div>
+                                <img src="http://47.103.205.31/group1/M00/00/02/2.1.jpg" alt="">
+                            </div>
+                            <div class="center-center-size">
+                                <span>文行·春申 </span><br>
+                                <span>银泰苑</span>
+                                <div class="center-center-size2">
+                                <span> 2室2厅·84.83平米</span>
+                                <span>348万</span>
+
+                                </div>
+                            </div>
+                        </a>
+                    </li><li>
+                        <a href="">
+                            <div>
+                                <img src="http://47.103.205.31/group1/M00/00/02/2.2.jpg" alt="">
+                            </div>
+                            <div class="center-center-size">
+                                <span>宝山·上大 </span><br>
+                                <span>远东君悦庭</span>
+                                <div class="center-center-size2">
+                                <span> 2室2厅·92.83平米</span>
+                                <span>558万</span>
+
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="center-footer ">
+                <div class="center-footerr-one center-header">
+                    <span>小区精选</span>
+                    <br>
+                    <span >纵览小区,恋上这座城</span>
+                   <a href="" class="center-header-right">更多上海小区</a>
+                </div>
+                <div class="center-center-one  center-center">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <div>
+                                    <img src="http://47.103.205.31/group1/M00/00/02/3.1.jpg" alt="">
+                                </div>
+                                <div class="center-center-size">
+                                    <span>宜川五村 </span>
+                                    
+                                    <div class="center-center-size2">
+                                    <span> 1973年建</span>
+                                    <span>49891元/平</span>
+    
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div>
+                                    <img src="http://47.103.205.31/group1/M00/00/02/pc1_4LHn2szRX_1.jpg!m_fill,w_265,h_205,f_jpg.jpg" alt="">
+                                </div>
+                                <div class="center-center-size">
+                                    <span>宜川一村 </span><br>
+                                    
+                                    <div class="center-center-size2">
+                                    <span> 1954年建</span>
+                                    <span>50528元/平</span>
+    
+                                    </div>
+                                </div>
+                            </a>
+                        </li><li>
+                            <a href="">
+                                <div>
+                                    <img src="http://47.103.205.31/group1/M00/00/02/pc1_4LHn2szRX_1.jpg!m_fill,w_265,h_205,f_jpg.jpg" alt="">
+                                </div>
+                                <div class="center-center-size">
+                                    <span>银泰苑 </span><br>
+                              
+                                    <div class="center-center-size2">
+                                    <span> 2009年建</span>
+                                    <span>40849元/平</span>
+    
+                                    </div>
+                                </div>
+                            </a>
+                        </li>                       
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        
+        <div class="footer">
+            <!-- footer-one开始     -->
+       <div class="footer-one">
+         <div>开放平台</div>
+         <div>网站地图</div>
+         <div>了解贝壳</div>
+         <a href="">客服官方咨询</a>
+       </div>
+
+       <!-- footer-one结束 -->
+       <!-- footer-two开始 -->
+       <div class="footer-two">
+           <!-- <ul>
+               <li>城市二手房
+                   <div class="ulclass first">
+                       <ul >
+                        <li>泰安房产网</li>
+                        <li>宁波房产网</li>
+                        <li>乌鲁木齐房产网</li>
+                        <li>重庆房产网</li>
+                        <li>郑州房产网</li>
+                        <li>常州房产网</li>
+                        <li>皇石房产网</li>
+                        <li>佛山房产网</li>
+                        <li>石家庄房产网</li>
+                        <li>东莞房产网</li>
+                        <li>大理房产网</li>
+                        <li>巴中房产网</li>
+                       </ul>
+                       <ul>
+                        <li>泰安房产网</li>
+                        <li>宁波房产网</li>
+                        <li>乌鲁木齐房产网</li>
+                        <li>重庆房产网</li>
+                        <li>郑州房产网</li>
+                        <li>常州房产网</li>
+                        <li>皇石房产网</li>
+                        <li>佛山房产网</li>
+                        <li>石家庄房产网</li>
+                        <li>东莞房产网</li>
+                        <li>大理房产网</li>
+                        <li>巴中房产网</li>
+                       </ul><ul>
+                        <li>泰安房产网</li>
+                        <li>宁波房产网</li>
+                        <li>乌鲁木齐房产网</li>
+                        <li>重庆房产网</li>
+                        <li>郑州房产网</li>
+                        <li>常州房产网</li>
+                        <li>皇石房产网</li>
+                        <li>佛山房产网</li>
+                        <li>石家庄房产网</li>
+                        <li>东莞房产网</li>
+                        <li>大理房产网</li>
+                        <li>巴中房产网</li>
+                       </ul><ul>
+                        <li>泰安房产网</li>
+                        <li>宁波房产网</li>
+                        <li>乌鲁木齐房产网</li>
+                        <li>重庆房产网</li>
+                        <li>郑州房产网</li>
+                        <li>常州房产网</li>
+                        <li>皇石房产网</li>
+                        <li>佛山房产网</li>
+                        <li>石家庄房产网</li>
+                        <li>东莞房产网</li>
+                        <li>大理房产网</li>
+                        <li>巴中房产网</li>
+                       </ul><ul>
+                        <li>泰安房产网</li>
+                        <li>宁波房产网</li>
+                        <li>乌鲁木齐房产网</li>
+                        <li>重庆房产网</li>
+                        <li>郑州房产网</li>
+                        <li>常州房产网</li>
+                        <li>皇石房产网</li>
+                        <li>佛山房产网</li>
+                        <li>石家庄房产网</li>
+                        <li>东莞房产网</li>
+                        <li>大理房产网</li>
+                        <li>巴中房产网</li>
+                       </ul><ul>
+                        <li>泰安房产网</li>
+                        <li>宁波房产网</li>
+                        <li>乌鲁木齐房产网</li>
+                        <li>重庆房产网</li>
+                        <li>郑州房产网</li>
+                        <li>常州房产网</li>
+                        <li>皇石房产网</li>
+                        <li>佛山房产网</li>
+                        <li>石家庄房产网</li>
+                        <li>东莞房产网</li>
+                        <li>大理房产网</li>
+                        <li>巴中房产网</li>
+                       </ul><ul>
+                        <li>泰安房产网</li>
+                        <li>宁波房产网</li>
+                        <li>乌鲁木齐房产网</li>
+                        <li>重庆房产网</li>
+                        <li>郑州房产网</li>
+                        <li>常州房产网</li>
+                        <li>皇石房产网</li>
+                        <li>佛山房产网</li>
+                        <li>石家庄房产网</li>
+                        <li>东莞房产网</li>
+                        <li>大理房产网</li>
+                        <li>巴中房产网</li>
+                       </ul><ul>
+                        <li>泰安房产网</li>
+                        <li>宁波房产网</li>
+                        <li>乌鲁木齐房产网</li>
+                        <li>重庆房产网</li>
+                        <li>郑州房产网</li>
+                        <li>常州房产网</li>
+                        <li>皇石房产网</li>
+                        <li>佛山房产网</li>
+                        <li>石家庄房产网</li>
+                        <li>东莞房产网</li>
+                        <li>大理房产网</li>
+                        <li>巴中房产网</li>
+                       </ul><ul>
+                        <li>泰安房产网</li>
+                        <li>宁波房产网</li>
+                        <li>乌鲁木齐房产网</li>
+                        <li>重庆房产网</li>
+                        <li>郑州房产网</li>
+                        <li>常州房产网</li>
+                        <li>皇石房产网</li>
+                        <li>佛山房产网</li>
+                        <li>石家庄房产网</li>
+                        <li>东莞房产网</li>
+                        <li>大理房产网</li>
+                        <li>巴中房产网</li>
+                       </ul><ul>
+                        <li>泰安房产网</li>
+                        <li>宁波房产网</li>
+                        <li>乌鲁木齐房产网</li>
+                        <li>重庆房产网</li>
+                        <li>郑州房产网</li>
+                        <li>常州房产网</li>
+                        <li>皇石房产网</li>
+                        <li>佛山房产网</li>
+                        <li>石家庄房产网</li>
+                        <li>东莞房产网</li>
+                        <li>大理房产网</li>
+                        <li>巴中房产网</li>
+                       </ul>
+                    </div>
+               </li>
+               <li>房产资讯
+                <div class="ulclass2 ulclass">
+                    <ul >
+                     <li>泰安房产网</li>
+                     <li>宁波房产网</li>
+                     <li>乌鲁木齐房产网</li>
+                     <li>重庆房产网</li>
+                     <li>郑州房产网</li>
+                     <li>常州房产网</li>
+                     <li>皇石房产网</li>
+                     <li>佛山房产网</li>
+                     <li>石家庄房产网</li>
+                     <li>东莞房产网</li>
+                     <li>大理房产网</li>
+                     <li>巴中房产网</li>
+                    </ul>
+               </li>
+               <li>城区二手房
+                <div class="ulclass3 ulclass">
+                    <ul >
+                     <li>泰安房产网</li>
+                     <li>宁波房产网</li>
+                     <li>乌鲁木齐房产网</li>
+                     <li>重庆房产网</li>
+                     <li>郑州房产网</li>
+                     <li>常州房产网</li>
+                     <li>皇石房产网</li>
+                     <li>佛山房产网</li>
+                     <li>石家庄房产网</li>
+                     <li>东莞房产网</li>
+                     <li>大理房产网</li>
+                     <li>巴中房产网</li>
+                    </ul>
+               </li>
+               <li>城区租房</li>
+               <li>城区小区</li>
+               <li>热门小区</li>
+               <li>热门问答</li>
+               <li>热门百科</li>
+               <li>合作与友情链接</li>
+               <li>贝壳规则中心</li>
+           </ul> -->
+           <!-- </div> -->
+           <div class="box">
+            <ul>
+                <li class="nav nav_active">
+                    <h3 class="title">城市二手房</h3>
+                    <div class="txt">
+                      
+                            <span>泰安房产网</span>
+                            <span>宁波房产网</span>
+                            <soan>乌鲁木齐房产网</soan>
+                            <span>重庆房产网</span>
+                            <span>郑州房产网</span>
+                            <span>常州房产网</span>
+                            <span>皇石房产网</span>
+                            <span>佛山房产网</span>
+                            <span>石家庄房产网</span>
+                            <span>东莞房产网</span>
+                            <span>大理房产网</span>
+                            <span>巴中房产网</span>
+                          <br>
+                          <span>泰安房产网</span>
+                          <span>宁波房产网</span>
+                          <soan>乌鲁木齐房产网</soan>
+                          <span>重庆房产网</span>
+                          <span>郑州房产网</span>
+                          <span>常州房产网</span>
+                          <span>皇石房产网</span>
+                          <span>佛山房产网</span>
+                          <span>石家庄房产网</span>
+                          <span>东莞房产网</span>
+                          <span>大理房产网</span>
+                          <span>巴中房产网</span>
+                         <br>
+                         <span>泰安房产网</span>
+                         <span>宁波房产网</span>
+                         <soan>乌鲁木齐房产网</soan>
+                         <span>重庆房产网</span>
+                         <span>郑州房产网</span>
+                         <span>常州房产网</span>
+                         <span>皇石房产网</span>
+                         <span>佛山房产网</span>
+                         <span>石家庄房产网</span>
+                         <span>东莞房产网</span>
+                         <span>大理房产网</span>
+                         <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        <span>泰安房产网</span>
+                        <span>宁波房产网</span>
+                        <soan>乌鲁木齐房产网</soan>
+                        <span>重庆房产网</span>
+                        <span>郑州房产网</span>
+                        <span>常州房产网</span>
+                        <span>皇石房产网</span>
+                        <span>佛山房产网</span>
+                        <span>石家庄房产网</span>
+                        <span>东莞房产网</span>
+                        <span>大理房产网</span>
+                        <span>巴中房产网</span>
+                        <br>
+                        
+                           
+                           
+                    </div>
+                </li>
+                <li class="nav">
+                    <h3 class="title">房产资讯</h3>
+                    <div class="txt">
+                        <span>房产资讯</span>
+                        <span>房产资讯</span>
+                        <span>房产资讯</span>
+                        <span>房产资讯</span>
+                        <span>房产资讯</span>
+                        <span>房产资讯</span>
+                        <span>房产资讯</span>
+                        <span>房产资讯</span>
+                        <span>房产资讯</span>
+                        <span>房产资讯</span>
+                        <span>房产资讯</span>
+                    </div>
+                </li>
+                <li class="nav">
+                    <h3 class="title">城区二手房</h3>
+                    <div class="txt">
+                        <span>城区二手房</span>
+                        <span>城区二手房</span>
+                        <span>城区二手房</span>
+                        <span>城区二手房</span>
+                        <span>城区二手房</span>
+                        <span>城区二手房</span>
+                        <span>城区二手房</span>
+                        <span>城区二手房</span>
+                        <span>城区二手房</span>
+                        <span>城区二手房</span>
+                        <span>城区二手房</span>
+                    </div>
+                </li>
+                <li class="nav">
+                    <h3 class="title">城区租房</h3>
+                    <div class="txt">
+                        <span>城区租房</span>
+                        <span>城区租房</span>
+                        <span>城区租房</span>
+                        <span>城区租房</span>
+                        <span>城区租房</span>
+                        <span>城区租房</span>
+                        <span>城区租房</span>
+                        <span>城区租房</span>
+                        <span>城区租房</span>
+                        <span>城区租房</span>
+                        <span>城区租房</span>
+                    </div>
+                </li>
+                <li class="nav">
+                    <h3 class="title">城区小区</h3>
+                    <div class="txt">
+                        <span>城区小区</span>
+                        <span>城区小区</span>
+                        <span>城区小区</span>
+                        <span>城区小区</span>
+                        <span>城区小区</span>
+                        <span>城区小区</span>
+                        <span>城区小区</span>
+                        <span>城区小区</span>
+                        <span>城区小区</span>
+                        <span>城区小区</span>
+                        <span>城区小区</span>
+                    </div>
+                </li>
+                <li class="nav">
+                    <h3 class="title">热门小区</h3>
+                    <div class="txt">
+                        <span>热门小区</span>
+                        <span>热门小区</span>
+                        <span>热门小区</span>
+                        <span>热门小区</span>
+                        <span>热门小区</span>
+                        <span>热门小区</span>
+                        <span>热门小区</span>
+                        <span>热门小区</span>
+                        <span>热门小区</span>
+                        <span>热门小区</span>
+                        <span>热门小区</span>
+                    </div>
+                </li>
+                <li class="nav">
+                    <h3 class="title">热门问答</h3>
+                    <div class="txt">
+                        <span>热门问答</span>
+                        <span>热门问答</span>
+                        <span>热门问答</span>
+                        <span>热门问答</span>
+                        <span>热门问答</span>
+                        <span>热门问答</span>
+                        <span>热门问答</span>
+                        <span>热门问答</span>
+                        <span>热门问答</span>
+                        <span>热门问答</span>
+                        <span>热门问答</span>
+                    </div>
+                </li>
+                <li class="nav">
+                    <h3 class="title">热门百科</h3>
+                    <div class="txt">
+                        <span>热门百科</span>
+                        <span>热门百科</span>
+                        <span>热门百科</span>
+                        <span>热门百科</span>
+                        <span>热门百科</span>
+                        <span>热门百科</span>
+                        <span>热门百科</span>
+                        <span>热门百科</span>
+                        <span>热门百科</span>
+                        <span>热门百科</span>
+                        <span>热门百科</span>
+                    </div>
+                </li>
+                <li class="nav">
+                    <h3 class="title">合作与友情连接</h3>
+                    <div class="txt">
+                        <span>合作与友情连接</span>
+                        <span>合作与友情连接</span>
+                        <span>合作与友情连接</span>
+                        <span>合作与友情连接</span>
+                        <span>合作与友情连接</span>
+                        <span>合作与友情连接</span>
+                        <span>合作与友情连接</span>
+                        <span>合作与友情连接</span>
+                        <span>合作与友情连接</span>
+                        <span>合作与友情连接</span>
+                        <span>合作与友情连接</span>
+                    </div>
+                </li>
+                <li class="nav">
+                    <h3 class="title">贝壳规格中心</h3>
+                    <div class="txt">
+                        <span>贝壳规格中心</span>
+                        <span>贝壳规格中心</span>
+                        <span>贝壳规格中心</span>
+                        <span>贝壳规格中心</span>
+                        <span>贝壳规格中心</span>
+                        <span>贝壳规格中心</span>
+                        <span>贝壳规格中心</span>
+                        <span>贝壳规格中心</span>
+                        <span>贝壳规格中心</span>
+                        <span>贝壳规格中心</span>
+                        <span>贝壳规格中心</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+       </div> 
+       <!-- footer-two结束-->
+       <div class="footer-three">
+           <div></div>
+           <div></div>
+           <div></div>
+           <div></div>
+           <div></div>
+       </div>
+       <div class="footer-four">
+            天津小屋信息科技有限公司 | 地址：天津经济技术开发区南港工业区综合服务区办公楼C座一层112室09单元 | 电话：10106188 | 
+            <a target="_blank" href="http://www.beian.miit.gov.cn">津ICP备18000836号</a> | © Copyright 2020 ke.com版权所有|
+            <a target="_blank" href="//file.ljcdn.com/bigc-file2cdn/Mensa/1585731661478.pdf">营业执照</a>
+                    | <a target="_blank" href="//file.ljcdn.com/bigc-file2cdn/Mensa/1585732230759.pdf">ICP证</a>|           
+                    <a target="_blank" href="//file.ljcdn.com/bigc-file2cdn/Mensa/1585824326852.pdf">网络文化经营许可证</a>
+            <br>
+          违法和不良信息举报电话：010-86440676| 违法和不良信息举报邮箱：jubaoyouxiang@ke.com
+<br>
+<img src="https://s1.ljcdn.com/pegasus/redskull/images/common/beian.png?_v=20200728160221" style="display: inline-block">
+<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12010602120282">津公网安备 12010602120282号</a> | 
+<a target="_blank" href="//www.12377.cn">网上有害信息举报专区</a>
+</div>
+
+
+
+       </div>
+
+        </div>
+    </div>
+</body>
+</html>

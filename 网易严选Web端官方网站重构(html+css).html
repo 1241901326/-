@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>网易严选</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_ev6uof3iv6i.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_xwig0y3l78c.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_3fxdr6rhzsu.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_kanqiadlhi.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_xo32842rngd.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_cta5u7d2rjl.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_tfklu3505y.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_zreub3az4go.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_ie8547k68xi.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_p8azaspdgy.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_i36lelm9ft.css">
+   <link rel="stylesheet" href="http://at.alicdn.com/t/font_1970130_82kr8dfoyj4.css">
+   <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+
+        }
+        html,body,.main{
+            width: 100%;
+            height: 100%;
+
+        }
+      
+        .top{
+            width: 1515px;
+            height: 36px;
+            background-color: black;
+            margin: 0  auto;
+        }
+        /* 最顶上两行 */
+        .top-left{
+            color: #CC9756;
+            font-size: 12px;
+            float: left;
+            line-height: 36px;
+           text-align: center;
+           margin-left: 100px;
+        
+        }
+        .top::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .top-right>ul>li{
+            float: left;
+            text-decoration: none;
+            list-style: none;
+            color: #fff;
+            margin-right: 10px;
+          line-height: 20px;
+           text-align: center;
+           border-right: 1px solid #fff;
+           font-size: 12px;
+           padding-right: 10px;
+            cursor: pointer;
+        }
+        .top-right>ul>li:last-child{
+            border: none;
+        }
+        .top-right{
+           
+            float: right;
+            margin-right:50px ;
+            margin-top: 10px;
+            margin-bottom: 15px;
+           height: 100%;
+        
+          
+        }
+        /* 头部 */
+        .header{
+            width: 1500px;;
+            height: 140px;
+            margin: 0  auto;
+            /* background-color: red; */
+
+        }
+        .header_top{
+            width: 1090px;
+            height: 60%;
+            /* background-color: pink; */
+            margin: 0 auto;
+         
+        }
+        .header_top,.header_top_left>img{
+            width: 229px;
+            height: 74px;
+            /* margin-top: 10px; */
+            float: left;
+        }
+        .header_top_conter{
+            width: 500px;
+            height: 30px;
+            margin-top: 20px;
+            margin-left: 430px;
+
+            /* float: left; */
+        }
+        .header_top_conter_head{
+            display: flex;
+            /* border: 1px solid red; */
+            border: none;
+        }
+        input{
+            border: none;
+        }
+        .header_top_conter_head>div:first-child{
+            flex: 5;
+            height: 38px;
+            line-height: 38px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border: 1px solid #CC9756;
+            border-bottom-left-radius: 19px;
+            border-top-left-radius: 19px;
+            font-size: 14px;
+            width: 442px;
+            padding-left: 38px;
+        }
+        .header_top_conter_head>div:last-child{
+            flex: 1;
+            background-color:  #E2C199;
+            border-top-right-radius: 19px;
+            border-bottom-right-radius: 19px;
+            cursor: pointer;
+            
+           color: #fff;
+           line-height: 38px;
+             text-align: center;
+           font-size: 16px;
+         letter-spacing: 1px;
+        }
+        [value="搜索"]{
+            border: none;
+            background-color: #E2C199;
+        }
+        .header_top_conter_bottom{
+            color: #CC9756;
+            cursor: pointer;
+            max-width: 444px;
+            font-size: 12px;
+            margin-left: 25px;
+
+        }
+        .header_bottom{
+            width: 1090px;
+            height: 40%;
+            /* background-color: teal; */
+            margin: 0 auto;
+        }
+        .footer{
+            width: 1500px;
+            height: 549px;
+            /* background-color: coral; */
+            margin: 0 auto;
+
+        }
+        .footer_top{
+            width: 70%;
+            height: 50%;
+            /* background-color: #ccc; */
+            margin: 0 auto;
+            display: flex;
+            padding-top: 50px;
+           
+        }
+        .footer_top>div{
+            height: 200px;
+            flex: 1;
+            border-right: 1px solid #ededed;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .footer_top>div:last-child{
+            border: none;
+        }
+        .span{
+            position: absolute;
+            margin-top: -170px;
+            margin-left: -45px;
+        
+        }
+        .footer_top_lift>div{
+            width: 80px;
+            height: 100px;
+            border: 1px solid #E8E8E8;
+            margin-right: 20px;
+            padding-top: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .iconfont{
+             font-size: 40px;
+             text-align: center;
+
+        }
+        .footer_top_content>div{
+               
+             position: absolute;
+             margin: 0 30px;
+ 
+        
+        }
+        .footer_top_content_span{
+            font-size: 10px;
+        }
+        .footer_top_content>div:first-child{
+            margin-top: -100px;
+            
+        }
+        .footer_top_content>div:first-child>span:first-child{
+            margin-left: 110px;
+           
+        }
+        .footer_top_content>div:last-child{
+            
+             font-size: 12px;
+            margin-top: 30px;
+            margin-left: -140px;
+    
+        }
+        .footer_top_content_div_two>i.iconfont{
+            font-size: 22px;
+        }
+        .footer_top_right{
+            position: relative;
+        }
+        .footer_top_right>div{
+          position: absolute;
+        }
+        .footer_top_right>div:first-child{
+            padding-bottom: 130px;
+        }
+        .footer_top_right>div:last-child{
+            padding-top: 130px;
+            color: #b4a078;
+            font-size: 12px;
+        }
+       
+        .footer_top_right_img{
+            width: 100px;
+            height: 100px;
+            background-size: 100% 100%;
+            background-image: url(http://47.103.205.31/group1/M00/00/01/erweima.png);
+            
+        }
+      
+        .footer_bottom{
+            width: 100%;
+            height: 50%;
+            background-color: #414141;
+        }
+        .footer_bottom_top{
+            display: flex;
+            width: 70%;
+            height: 130px;
+            padding-left:240px ;
+           
+        }
+        .footer_bottom_top>div{
+            color: #fff;
+            flex:1;
+            border-bottom: 1px solid #ededed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .footer_bottom_top>div>div.iconfont{
+            margin-right: 20px;
+        }
+       .footer_bottom_bottom{
+           color: #fff;
+          text-decoration: none;
+          list-style: none;
+         padding-top: 35px;
+          text-align: center;
+          font-size: 12px;
+       
+       }
+       
+       a{
+        text-decoration: none;
+          list-style: none;
+          color:#fff;
+          font-size: 12px;
+       }
+       .img-last{
+        width: 23px;
+        height: 25px;
+        display: inline-block;
+       margin-top: 5px;
+       }
+        .content{
+            width: 100%;
+            
+        }
+        
+        .content>div{
+            position: relative;
+            width: 100%;
+            height: 550px;
+        }
+        
+      
+        .item{
+            width: 1090px; ;
+            height: 510px;
+           
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+        }
+        .content>div:nth-child(2){
+            height: 620px;
+        }
+        .content a{
+            color: black;
+        }
+      .content_one_top{
+          width: 1090px;
+          height: 50px;
+          /* background-color: red; */
+          
+          
+          margin-top: 10px;
+          margin-bottom: 30px;
+      }
+      .content_one_top>div{
+          display: inline-block;
+          margin-top: 45px;
+      }
+      .content_one_top_left{
+          margin-left: 20px;
+
+      }
+      .content_one_top_content{
+          font-size: 12px;
+          margin-left: 30px;
+
+      }
+      .content_one_top_right{
+          text-decoration: none;
+          list-style: none;
+          margin-left: 800px;
+
+         
+      }
+      .content_one_bottom{
+          width: 1090px;
+          height: 400px;
+  
+   
+      }
+      .content_one_bottom>div{
+          width: 23%;
+          height: 400px;
+        
+          margin-left: 1.5%;
+          float: left;
+          
+      }
+      .content_one_bottom_one_bottom>div,.content_one_bottom_two_bottom>div,.content_one_bottom_three_bottom>div,.content_one_bottom_four_bottom>div{
+          text-align: center;
+      }
+    
+      .content_two,.content_four{
+          width: 1500px;
+          margin: 0 auto;
+          background-color: #ededed;
+ 
+      }
+      .content_two>.item{
+          margin-top: 0px;
+         background-color: #ededed;
+      }
+      .content_two_top{
+         margin-bottom: 50px;
+      }
+      .content_two_top>div{
+          display: inline-block;
+          margin-top: 30px;
+      }
+      .content_two_top_content1{
+        font-size: 12px;
+        cursor: pointer;
+        color: #b4a078;
+        text-decoration: underline;
+      }
+      .content_two_top_content1,.content_two_top_content{
+          position: relative;
+          margin-left: 20px;
+      }
+      .content_two_top_right{
+          color: red;
+         margin-left: 800px;
+          /* margin-top: -110px; */
+      }
+      .pawn>div{
+          /* width: 80px; */
+          height: 20px;
+          display: inline-block;
+          color: #fff !important;
+          padding: 0 5px;
+          background-color: #e36844;
+          line-height: 20px;
+          text-align: center;
+      }
+      P.one{
+        color: black;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+      }
+      P.one:hover{
+        color: #b4a078;
+      }
+      
+  
+     
+        .image{
+            width: 1519px;
+            height: 420px;
+           
+             background-image: url(http://47.103.205.31/group1/M00/00/01/1.1.jpg);
+             background-size: 100% 100%;
+             margin: 0 auto;
+             animation: lunbo 20s infinite;
+        }
+        @keyframes lunbo{
+        0%{
+            background-image: url(http://47.103.205.31/group1/M00/00/01/1.1.jpg);
+        }
+        25%{
+            background-image: url(http://47.103.205.31/group1/M00/00/01/1.2.jpg);
+
+        }
+        50%{
+            background-image: url(http://47.103.205.31/group1/M00/00/01/1.3.jpg);
+
+        }
+        75%{
+            background-image: url(http://47.103.205.31/group1/M00/00/01/1.4.jpg);
+
+        }
+        100%{
+            background-image: url(http://47.103.205.31/group1/M00/00/01/1.5.jpg);
+
+        }
+        }
+        @keyframes st1{
+            from{
+                background-image: url(http://47.103.205.31/group1/M00/00/01/4.1.2.jpg);
+            }
+            to{
+                background-image: url(http://47.103.205.31/group1/M00/00/01/4.1.1.jpg);
+            }
+        }
+        @keyframes st2{
+            from{
+                background-image: url(http://47.103.205.31/group1/M00/00/01/4.2.1.jpg);
+            }
+            to{
+                background-image: url(http://47.103.205.31/group1/M00/00/01/4.2.2.jpg);
+            }
+        }
+        @keyframes st3{
+            from{
+                background-image: url(http://47.103.205.31/group1/M00/00/01/4.3.1.jpg);
+            }
+            to{
+                background-image: url(http://47.103.205.31/group1/M00/00/01/4.3.2.jpg);
+            }
+        } @keyframes st4{
+            from{
+                background-image: url(http://47.103.205.31/group1/M00/00/01/4.4.1.jpg);
+            }
+            to{
+                background-image: url(http://47.103.205.31/group1/M00/00/01/4.4.2.jpg);
+            }
+        }
+        @keyframes qt{
+            0%{
+               
+            }
+           
+            100%{
+                transform: scale(1.05);
+            }
+        }
+        @keyframes t1{
+            from{
+                background-image: url(http://47.103.205.31/group1/M00/00/01/2.1.jpg);
+            }
+            to{
+                background-image: url(http://47.103.205.31/group1/M00/00/01/2.2.jpg);
+            }
+        }
+
+.content_one_bottom_one_top{
+    width: 100%;
+    height: 60%;
+    background-size: 100% 100%;
+    background-image: url(http://47.103.205.31/group1/M00/00/01/4.1.2.jpg);
+    
+}
+
+.content_one_bottom_one_top:hover{
+    animation: st1 1s;
+    animation-fill-mode: forwards;
+     
+   
+}
+.content_one_bottom_two_top{
+    width: 100%;
+    height: 60%;
+    background-size: 100% 100%;
+    background-image: url(http://47.103.205.31/group1/M00/00/01/4.2.1.jpg);
+    
+}
+
+.content_one_bottom_two_top:hover{
+    animation: st2 1s;
+    animation-fill-mode: forwards;
+     
+   
+}
+.content_one_bottom_three_top{
+    width: 100%;
+    height: 60%;
+    background-size: 100% 100%;
+    background-image: url(http://47.103.205.31/group1/M00/00/01/4.3.1.jpg);
+    
+}
+
+.content_one_bottom_three_top:hover{
+    animation: st3 1s;
+    animation-fill-mode: forwards;
+     
+   
+}.content_one_bottom_four_top{
+    width: 100%;
+    height: 60%;
+    background-size: 100% 100%;
+    background-image: url(http://47.103.205.31/group1/M00/00/01/4.4.1.jpg);
+    
+}
+
+.content_one_bottom_four_top:hover{
+    animation: st4 1s;
+    animation-fill-mode: forwards;
+     
+   
+}
+.pic:hover{
+    animation: qt 2s;
+    
+}
+.content_three_top{
+    padding-top: 40px;
+}
+.content_three_top>div{
+    display: inline-block;
+}
+
+.three{
+    padding-left: 350px;
+}
+.content_three_top_right{
+    padding-left: 120px;
+}
+.three>ul>li{
+    margin-left: 10px;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+.content_three_bottom>div:first-child{
+    float: left;
+}
+.content_three_bottom>div:last-child{
+    float: right;
+}
+.content_three_bottom>div{
+    padding-top: 200px;
+    
+}
+
+.content_three_bottom{
+    background-image: url(http://47.103.205.31/group1/M00/00/01/2.1.jpg);
+    background-size: 100% 100%;
+    z-index: 1;
+    width: 100%;
+    height: 80%;
+    margin-top: 2%;
+    animation: t1 5s infinite;
+
+}
+.content_four_top>div{
+    display: inline-block;
+    margin-left: 25px;
+}
+.content_four_top_content{
+    margin-left: 30px;
+    font-size: 12px;
+}
+.content_four_top{
+    margin-top: 20px;
+}
+.content_four_bottom>div{
+    display: inline-block;
+   
+    width: 25%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.content_four_bottom>div:nth-child(2),.content_four_bottom>div:nth-child(3){
+    margin-left: 70px;
+}
+.content_four_bottom>div>div:first-child{
+
+    width: 100%;
+    height: 60%;
+  
+}
+.content_four_bottom>div:nth-child(1)>div:first-child{
+    background-image: url(http://47.103.205.31/group1/M00/00/01/3.1.jpg);
+    background-size: 100% 100%;
+
+}
+.content_four_bottom>div:nth-child(2)>div:first-child{
+    background-image: url(http://47.103.205.31/group1/M00/00/01/3.2.jpg);
+    background-size: 100% 100%;
+    
+}
+.content_four_bottom>div:nth-child(3)>div:first-child{
+    background-image: url(http://47.103.205.31/group1/M00/00/01/3.3.jpg);
+    background-size: 100% 100%;
+
+    
+}
+.content_four_bottom{
+    height: 290px;
+}
+.content_four_bottom_bottom{
+    
+    background-color: #ffffff;
+    height: 150px;
+   
+
+}
+.content_four_bottom_bottom>div,.content_four_bottom_bottom>P{
+    padding-top: 20px;
+    margin-left: 5px;
+}
+.content_four_bottom_bottom>span{
+    color: #999;
+    font-size: 13px;
+    margin-left: 5px;
+   
+}
+.content_four_bottom_bottom>div>span:first-child{
+    color: #333;
+    font-weight: 700;
+}
+.content_four_bottom_bottom>div>span:last-child{
+    margin-left: 50px;
+    color: #b4a078;
+    font-size: 13px;
+}
+.icon-fangdajing{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .header_bottom  ul{
+            width: 1090px;
+            height: 100%;
+            /* 同行跟分离 */
+           display: flex;
+           justify-content: space-between;
+        }
+      
+        .header_bottom>ul>li:hover>div{
+            display: block;
+        }
+        .header_bottom  li{
+            list-style: none;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+            line-height: 90px;
+
+
+        }
+        .ul>li {
+            color: black;
+        }
+        .ul>li>div>img{
+            width: 31px;
+            height: 36px;
+            margin-bottom: 20px;
+        }
+        .header_bottom>ul>li{
+            position: relative;
+    
+          
+        }
+        .header_bottom>ul>li:first-child{
+            color: #CC9756;
+            border-bottom: 3px solid #CC9756;
+        }
+        .header_bottom>ul>li:hover{
+            color: #CC9756;
+            border-bottom: 3px solid #CC9756;
+        }
+        .ul>li>div{
+            width: 150px;
+            height: 36px;
+            margin-bottom: 10px;
+           
+        }
+        .ul>li>div>span{
+            float: right;
+            line-height:36px ;
+            text-align: center;
+          
+        }
+        .header_bottom>ul>li>div{
+           position: absolute;
+            width: 1214px;
+            height: 400px;
+            background-color: #fff;
+            margin-left: -100px;
+            margin-top: -23px;
+            display: none;
+        }
+      
+        .recommend ul.products::after {
+			display: block;
+			content: "";
+			clear: both;
+		} 
+	
+		.products > li {
+			float: left;
+			width: 230px;
+			height: 260px;
+			margin-right: 30px;
+            
+			background-color: #fff;
+			text-align: center;
+            list-style: none;
+            text-decoration: none;
+            /* border: 1px solid teal; */
+		} 
+		.products > li:nth-child(1){
+            margin-top: -40px;
+			width: 300px;
+			height: 530px;
+		}
+		.products > li:nth-child(4),
+		.products > li:nth-child(7){
+			margin-right: 0;
+		}
+		.products > li:nth-child(2),
+		.products > li:nth-child(3),
+		.products > li:nth-child(4){
+            margin-top: -40px;
+			margin-bottom: 10px;
+		}
+
+		.products > li > .pic {
+			height: 70%;
+			border-bottom: 1px solid #f4f0ea;
+
+		}
+        .products > li > .details{
+            padding-top: 10px;
+        }
+		.products > li > .details > p{
+			line-height: 2em;
+		}
+		.products > li > .details > p:last-child{
+			color: #e36844;
+		}
+
+
+       
+    </style>
+</head>
+<body>
+        <div class="main">
+            <div class="top">
+                <div class="top-left">
+                   
+                    关于包邮政策变更的说明
+                </div>
+                <div class="top-right">
+                    <ul>
+                        <li>登录/注册</li>
+                        <li>我的订单</li>
+                        <li>会员</li>
+                        <li>甄选家</li>
+                        <li>企业采购</li>
+                        <li>客户服务</li>
+                        <li>app</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header">
+                <div class="header_top">
+           <div class="header_top_left">
+               <img src="http://47.103.205.31/group1/M00/00/01/icon.jpg" alt="图片没了">
+           </div>
+           <div class="header_top_conter">
+               <div class="header_top_conter_head">
+                   <!-- 搜索框 -->
+                   <div>
+                        <i class="iconfont icon-fangdajing"></i>
+                       <input type="text" placeholder="88开门红">
+                   </div>
+                   <div>
+                       <input type="submit" value="搜索">
+                   </div>
+               </div>
+               <div class="header_top_conter_bottom">
+                   筷子美食3件85折 |  防霉除湿  |  快递绿色回收 倡议书
+               </div>
+           </div>
+           <div class="header_top_right"></div>
+                </div>
+                <div class="header_bottom">
+                    <ul>
+                        <li>首页</li>
+                        <li>居家生活
+                            <div>
+                                <ul class="ul">
+                                    <li>品牌好物
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix1.png" alt="">
+                                            <span>口碑好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/微信2.png" alt="">
+                                            <span>抑菌防螨</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix3.png" alt="">
+                                            <span>春夏好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix4.png" alt="">
+                                            <span>主题床品</span>
+                                        </div>
+                                    </li>
+                                    <li>床上用品
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix1.png" alt="">
+                                            <span>口碑好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/微信2.png" alt="">
+                                            <span>抑菌防螨</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix3.png" alt="">
+                                            <span>春夏好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix4.png" alt="">
+                                            <span>主题床品</span>
+                                        </div>
+                                    </li>
+                                    <li>家具家装
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix1.png" alt="">
+                                            <span>口碑好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/微信2.png" alt="">
+                                            <span>抑菌防螨</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix3.png" alt="">
+                                            <span>春夏好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix4.png" alt="">
+                                            <span>主题床品</span>
+                                        </div>
+                                    </li>
+                                    <li>收纳用品
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix1.png" alt="">
+                                            <span>口碑好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/微信2.png" alt="">
+                                            <span>抑菌防螨</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix3.png" alt="">
+                                            <span>春夏好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix4.png" alt="">
+                                            <span>主题床品</span>
+                                        </div>
+                                    </li>
+                                    <li>家居饰品
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix1.png" alt="">
+                                            <span>口碑好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/微信2.png" alt="">
+                                            <span>抑菌防螨</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix3.png" alt="">
+                                            <span>春夏好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix4.png" alt="">
+                                            <span>主题床品</span>
+                                        </div>
+                                    </li>
+                                    <li>厨房用品
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix1.png" alt="">
+                                            <span>口碑好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/微信2.png" alt="">
+                                            <span>抑菌防螨</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix3.png" alt="">
+                                            <span>春夏好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix4.png" alt="">
+                                            <span>主题床品</span>
+                                        </div>
+                                    </li>
+                                    <li>餐具水具
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix1.png" alt="">
+                                            <span>口碑好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/微信2.png" alt="">
+                                            <span>抑菌防螨</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix3.png" alt="">
+                                            <span>春夏好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix4.png" alt="">
+                                            <span>主题床品</span>
+                                        </div>
+                                    </li>
+                                    <li>宠物生活
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix1.png" alt="">
+                                            <span>口碑好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/微信2.png" alt="">
+                                            <span>抑菌防螨</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix3.png" alt="">
+                                            <span>春夏好物</span>
+                                        </div>
+                                        <div>
+                                            <img src="http://47.103.205.31/group1/M00/00/01/weix4.png" alt="">
+                                            <span>主题床品</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>服饰鞋包</li>
+                        <li>美食酒水</li>
+                        <li>个护清洁</li>
+                        <li>母婴亲子</li>
+                        <li>运动旅行</li>
+                        <li>数码家电</li>
+                        <li>严选全球</li>
+                        <li>为你严选</li>
+                        <li>众筹</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image"></div>
+        <div class="content">
+            <div class="content_one ">
+                 <div class="item">
+                      <!-- 4张图上方字体 -->
+                 <div class="content_one_top">
+                    <div class="content_one_top_left">
+                        <h3>新品首发</h3>
+                    </div>
+                    <div class="content_one_top_content">
+                        <span>为你寻觅世间好物</span>
+                    </div>
+                    <div class="content_one_top_right">
+                        <a href="">更多商品</a>
+                    </div>
+                </div>
+                <!-- 商品图 -->
+                <div class="content_one_bottom">
+                    <div class="content_one_bottom_one">
+                        <div class="content_one_bottom_one_top">
+                            <div class="img">
+                               
+                            </div>
+                        </div>
+                        <div class="content_one_bottom_one_bottom">
+                            <div class="details">
+                                <p>
+                                    
+                                    <div class="pawn">
+                                        <div>
+                                            <span>新品限时购</span>
+                                        </div> </div>
+                                   
+                                    
+                                </p>
+                                <p class="one">守护你的发际线，黑芝麻丸100克</p>
+                                <p>¥29</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content_one_bottom_two">
+                       <div class="content_one_bottom_two_top">
+                        <div class="img">
+                         
+                        </div>
+                       </div>
+                       <div class="content_one_bottom_two_bottom">
+                        <div class="details">
+                            <p>
+                                
+                                <div class="pawn">
+                                    <div>
+                                        <span>杭州制造</span>
+                                        
+                                    </div>
+                                  <div>
+                                    <span>新品限时购</span>
+                                  </div>
+                                </div>
+                               
+                                
+                            </p>
+                            <p class="one">口袋里的咖啡馆 日本浓缩胶囊咖啡液8颗装</p>
+                            <p>¥21.8</p>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="content_one_bottom_three">
+                       <div class="content_one_bottom_three_top">
+                        <div class="img">
+                       
+                        </div>
+                       </div>
+                       <div class="content_one_bottom_three_bottom">
+                        <div class="details">
+                            <p>
+                                
+                                <div class="pawn">
+                                    <div>
+                                        <span>新品限时购</span>
+                                    </div> </div>
+                               
+                                
+                            </p>
+                            <p class="one">口袋里的咖啡馆 日本浓缩胶囊咖啡液8颗装</p>
+                            <p>¥21.8</p>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="content_one_bottom_four">
+                       <div class="content_one_bottom_four_top">
+                        <div class="img">
+                         
+                        </div>
+                       </div>
+                       <div class="content_one_bottom_four_bottom">
+                        <div class="details">
+                            <p>
+                                
+                                <div class="pawn">
+                                    <div>
+                                        <span>新品限时购</span>
+                                    </div> </div>
+                               
+                                
+                            </p>
+                            <p class="one">口袋里的咖啡馆 日本浓缩胶囊咖啡液8颗装</p>
+                            <p>¥21.8</p>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+                 </div>
+            </div>
+            <div class="content_two ">
+                <div class="item">
+            <div class="content_two_top">
+                <div class="content_two_top_left">
+                    <h3>人气推荐</h3>
+                </div>
+                <div class="content_two_top_content1">
+                    <span>编辑推荐</span>
+                </div>
+                <div class="content_one_top_content ">
+                    <span>热销总榜</span>
+                </div>
+                <div class="content_two_top_right">
+                    <a href="">更多商品</a>
+                </div>
+            </div>
+            <div class="content_two_bottom">
+                <ul class="products">
+                    <li>
+                        <div class="pic">
+                            <img src="http://47.103.205.31/group1/M00/00/01/7.1.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <p >
+                                <div class="pawn">
+                                    <div> <span>浙江制造</span></div>
+                                <div> <span>新人特价</span></div>
+                                </div>
+                               
+                            </p>
+                            <p class="one">【抢购】一次性医用口罩</p>
+                            <p>¥20</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <img src="http://47.103.205.31/group1/M00/00/01/7.2.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <p >
+                                <div class="pawn">
+
+                                    <div> <span>宁波制造</span></div>
+                                <div> <span>每满150减20券</span></div>
+                                </div>
+                                
+                               
+                            <div>
+                                <p class="one">【d丁磊直播款】男式精梳棉圆领短袖T恤衫</p>
+                            </div>
+                            <p>¥49</p>
+                        
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <img src="http://47.103.205.31/group1/M00/00/01/7.3.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <p >
+                                <span></span>
+                                <span></span>
+                            </p>
+                            <p class="one">轻弹云朵居家拖鞋</p>
+                            <p>¥9.9</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <img src="http://47.103.205.31/group1/M00/00/01/7.4.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <p>
+                                <div class="pawn">
+                                    <div><span>特价</span></div>
+                                </div>
+                                
+                                
+                                
+                            </p>
+                            <p class="one">全价猫粮1.8千克</p>
+                            <p>¥78</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <img src="http://47.103.205.31/group1/M00/00/01/7.5.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <p>
+                                
+                                <div class="pawn">
+                                    <div>
+                                        <span>每满150减20券</span>
+                                    </div> </div>
+                               
+                                
+                            </p>
+                            <p class="one">口袋里的咖啡馆 日本浓缩胶囊咖啡液8颗装</p>
+                            <p>¥21.8</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <img src="http://47.103.205.31/group1/M00/00/01/7.6.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <p >
+                                <div class="pawn">
+                                    
+                                    
+                                    <div><span>3件3折</span></div></div>
+                             
+                                
+                            </p>
+                            <p class="one">软软暖暖入睡 澳大利亚防水羊毛床垫</p>
+                            <p>¥699</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pic">
+                            <img src="http://47.103.205.31/group1/M00/00/01/7.7.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <p class="pawn">
+                                <div class="pawn">
+                                    <div><span>特价</span></div>
+                                </div>
+                               
+                              
+                            </p>
+                            <p class="one">99.9%抑菌率 口气清新漱口水</p>
+                            <p>¥8.9</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                </div>
+            </div>
+            <div class="content_three ">
+                <div class="item">
+                    <div class="content_three_top">
+                        <div class="content_one_top_left">
+                            <h3>新品首发</h3>
+                        </div>
+                        <div class="content_one_top_content three">
+                             <ul>
+                                 <li>
+                                     品牌好物 /
+                                 </li>
+                                 <li>
+                                    主题床品 /
+                                 </li>
+                                 <li>
+                                    抑菌防螨 /
+                                 </li>
+                                 <li>
+                                    春夏好物 /
+                                 </li>
+                                 <li>
+                                    餐厨爆款清单 /
+                                 </li>
+                                 <li>
+                                    床桌件套 
+                                 </li>
+                             </ul>
+                        </div>
+                        <div class="content_three_top_right">
+                            <a href="">更多商品</a>
+                        </div>
+
+
+                    </div>
+                    <div class="content_three_bottom">
+                        <div> 
+                             <i class="iconfont icon-zuojiantou"></i>
+                        </div>
+                        <div> 
+                            <i class="iconfont icon-youjiantou"></i>
+                       </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content_four ">
+                <div class="item">
+                    <div class="content_four_top">
+                        <div class="content_two_top_left">
+                            <h3>大家都在说</h3>
+                        </div>
+                        <div class="content_four_top_content">
+                            <span>生活没有统一标准</span>
+                        </div>
+                        
+                    </div>
+                    <div class="content_four_bottom">
+                        <div>
+                            <div class="content_four_bottom_top"></div>
+                            <div class="content_four_bottom_bottom">
+                                <span>陌****开</span>
+                                <span>2020-07-09 21:37</span>
+                                <div>
+                                    <span>女式仿真丝色丁家居服...</span>
+                                    <span>￥199</p>
+                                </div>
+                                <p>还不错。最小号的就是有点肥</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="content_four_bottom_top"></div>
+                            <div class="content_four_bottom_bottom">
+                                <span>陌****</span>
+                                <span>2020-07-09 02:17</span>
+                                <div>
+                                    <span>沙发的清凉装，冷感防...</span>
+                                    <span>￥49</p>
+                                </div>
+                                <p>未及时评价，默认好评</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="content_four_bottom_top"></div>
+                            <div class="content_four_bottom_bottom">
+                                <span>q****e</span>
+                                <span>2020-07-07 02:37</span>
+                                <div>
+                                    <span>玻璃光洁无暇，全自动...</span>
+                                    <span>￥1699</span>
+                                </div>
+                                <p>未及时评价，默认好评</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="footer">
+            <div class="footer_top">
+                <div class="footer_top_lift">
+                     <span class="span ">客户服务</span>
+                    
+                     <div>
+                         <div class="iconfont icon-kefu-"></div>
+                         <span>在线客服</span>
+                     </div>
+                     <div>
+                        <div class="iconfont icon-yonghufankui"></div>
+                        <span>用户反馈</span>
+                     </div>
+                </div>
+                <div class="footer_top_content">
+                    <div>
+                        <span>何为严选</span>
+                        <br>
+                     <span class="footer_top_content_span"> 网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品</span>
+                    </div>
+                     <div class="footer_top_content_div_two">
+                         <span class="footer_top_content_span_two">关注我们</span>
+                          <i class="iconfont icon-miaopuyanxuan" ></i>
+                          <i class="iconfont icon-weixin" ></i>
+                          <i  class="iconfont icon-weibo"></i>
+                     </div>
+                    </div>
+                <div class="footer_top_right">
+                     <div> <span>扫码下载严选APP</span></div>
+                      <div class="footer_top_right_img"></div>
+                    <div><span>下载领大额新人红包</span></div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_bottom_top">
+                    <div>
+                        <div class="iconfont icon-yi"></div>
+                        <span>网易自营电商</span>
+                    </div>
+                    <div>
+                        <div class="iconfont icon-dunpai"></div>
+                        <span>30无忧退换货</span>
+                    </div>
+                    <div>
+                        <div class="iconfont icon-xcx_mianfeiyouji"></div>
+                        <span>满99元免邮费</span>
+                    </div>
+                    <div>
+                        <div class="iconfont icon-xunzhang"></div>
+                        <span>品质保证</span>
+                    </div>
+                </div>
+                <div class="footer_bottom_bottom">
+
+
+
+
+
+
+               <div class="yx-cp-m-siteInfo" data-reactid=".1.1.0.2">
+                   <div class="yx-cp-nav" data-reactid=".1.1.0.2.0">
+                       <a class="yx-cp-text" href="https://you.163.com/story" target="_blank" data-reactid=".1.1.0.2.0.0">关于我们</a>
+                       <b class="yx-cp-split" data-reactid=".1.1.0.2.0.1">|</b>
+                       <a class="yx-cp-text" href="https://you.163.com/help/new" target="_blank" data-reactid=".1.1.0.2.0.2">帮助中心</a>
+                       <b class="yx-cp-split" data-reactid=".1.1.0.2.0.3">|</b>
+                       <a class="yx-cp-text" href="https://you.163.com/help/new#6" target="_blank" data-reactid=".1.1.0.2.0.4">售后服务</a>
+                       <b class="yx-cp-split" data-reactid=".1.1.0.2.0.5">|</b>
+                       <a class="yx-cp-text" href="https://you.163.com/help/new#3" target="_blank" data-reactid=".1.1.0.2.0.6">配送与验收</a>
+                       <b class="yx-cp-split" data-reactid=".1.1.0.2.0.7">|</b>
+                       <a class="yx-cp-text" href="https://you.163.com/help/new#39" target="_blank" data-reactid=".1.1.0.2.0.8">商务合作</a>
+                       <b class="yx-cp-split" data-reactid=".1.1.0.2.0.9">|</b>
+                       <a class="yx-cp-text" href="http://b.you.163.com?from=yx" target="_blank" data-reactid=".1.1.0.2.0.a">企业采购</a>
+                       <b class="yx-cp-split" data-reactid=".1.1.0.2.0.b">|</b>
+                       <a class="yx-cp-text" href="https://open.you.163.com/" target="_blank" data-reactid=".1.1.0.2.0.c">开放平台</a>
+                       <b class="yx-cp-split" data-reactid=".1.1.0.2.0.d">|</b>
+                       <a class="yx-cp-text" href="https://you.163.com/product/keywords?letter=A&amp;page=1" target="_blank" data-reactid=".1.1.0.2.0.e">搜索推荐</a>
+                       <b class="yx-cp-split" data-reactid=".1.1.0.2.0.f">|</b>
+                       <a class="yx-cp-text" href="https://you.163.com/friendLink" target="_blank" data-reactid=".1.1.0.2.0.g">友情链接</a>
+                       <b class="yx-cp-split" data-reactid=".1.1.0.2.0.h">|</b>
+                       <a class="yx-cp-text" href="https://jubao.163.com" target="_blank" data-reactid=".1.1.0.2.0.i">廉正举报</a>
+                    </div>
+                    <p class="yx-cp-copyright" data-reactid=".1.1.0.2.1">
+                        <a href="//yanxuan.nosdn.127.net/63dc121f9ebc448214eb353b5d971335.png?imageView" target="_blank" data-reactid=".1.1.0.2.1.0">食品经营许可证：JY13301080111719</a>
+                        <a target="_blank" href="//yanxuan.nosdn.127.net/4260909347cabf4ff9eb39694f35084f.png?imageView" data-reactid=".1.1.0.2.1.1">出版物经营许可证：新出发滨字第0132号</a>
+                        <span class="yx-cp-cr-text" data-reactid=".1.1.0.2.1.2">妙得ICP证号：ICP&nbsp;证浙B2-20160106</span>
+                        <a target="_blank" href="//yanxuan.nosdn.127.net/1b4a91a8e67addaa8b50c3be0b4c91a3.png?imageView" data-reactid=".1.1.0.2.1.3">浙杭食药监械经营备20171029号</a>
+                        <a target="_blank" href="//yanxuan.nosdn.127.net/39754779c3b8f63e364011235738768c.png?imageView" data-reactid=".1.1.0.2.1.4">营业执照</a>
+                        <span data-reactid=".1.1.0.2.1.5">网易公司版权所有 © 1997-</span><span data-reactid=".1.1.0.2.1.6">2020</span></p>
+                        <p class="yx-cp-police" data-reactid=".1.1.0.2.2"><span style="margin-right:10px;" data-reactid=".1.1.0.2.2.0">
+                            <a target="_blank" href="http://xsba.miit.gov.cn/static/mobile.html?dealerId=64701B926B16170C13A4BE58EDE05954" data-reactid=".1.1.0.2.2.0.0">无线电发射设备销售备案：42202011096855</a>
+                        </span>
+                        <span style="margin-right:10px;" data-reactid=".1.1.0.2.2.1">
+                            <a target="_blank" href="http://ewm.zjfda.gov.cn:8088/qcode.action?id=0000000069A47A7D0169A492778E07C6&amp;user_type=WLFW" data-reactid=".1.1.0.2.2.1.0">（浙杭）网械企备字[2019]第00119号</a>
+                        </span>
+                        <span style="margin-right:10px;" data-reactid=".1.1.0.2.2.2">（粤）网械平台备字（2019）第00004号</span>
+                        <span style="margin-right:10px;" data-reactid=".1.1.0.2.2.3">（粤）-非经营性-2016-0023</span></p>
+                        <p class="yx-cp-police" data-reactid=".1.1.0.2.3">
+                            <span style="margin-right:10px;" data-reactid=".1.1.0.2.3.0">浙江省网络食品销售第三方平台提供者备案：浙网食A33010009</span>
+                            <span data-reactid=".1.1.0.2.3.1">
+                                <a style="margin-right:10px;" target="_blank" href="//yanxuan.nosdn.127.net/6cde1bda2586dd9b163ea867b581a3e6.png?imageView" data-reactid=".1.1.0.2.3.1.0">单用途商业预付卡备案证：330100AAC0024</a>
+                                <a class="yx-cp-shield" href="http://idinfo.zjamr.zj.gov.cn/bscx.do?method=lzxx&amp;id=3301083301080000060604" target="_blank" data-reactid=".1.1.0.2.3.1.1">
+                                    <img src="http://yanxuan.nosdn.127.net/86f32b668af6e537389a77480fb5c74d.gif" alt="" data-reactid=".1.1.0.2.3.1.1.0" class="img-last">   
+                                </a>
+                    </span></p></div>
+
+
+
+                    
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
